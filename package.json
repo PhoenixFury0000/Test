@@ -1,0 +1,79 @@
+
+{
+    "name": "eternity-bot",
+
+    "version": "1.0.0",
+
+    "description": "Eternity WhatsApp Bot with multiple features",
+
+    "type": "module",
+
+    "main": "index.js",
+
+    "scripts": {
+
+        "start": "node main.js",
+
+        "dev": "node --watch main.js",
+
+        "session": "node session.js",
+
+        "test": "echo \"Error: no test specified\" && exit 1"
+
+    },
+
+    "author": "Phoenix",
+
+    "license": "MIT",
+
+    "dependencies": {
+
+        "@hapi/boom": "^10.0.1",
+
+        "@vitalets/google-translate-api": "^9.2.1",
+
+        "axios": "^1.6.0",
+
+        "baileys": "^6.7.18",
+
+        "moment-timezone": "^0.5.45",
+
+        "node-fetch": "^3.3.2",
+
+        "pino": "^9.0.0",
+
+        "form-data": "*",
+
+        "qrcode-terminal": "^0.12.0",
+
+
+
+        "anime-quiz": "^1.0.0"
+
+    },
+
+    "engines": {
+
+        "node": ">=18.0.0"
+
+    },
+
+    "keywords": [
+
+        "whatsapp",
+
+        "bot",
+
+        "eternity",
+
+        "baileys",
+
+        "ai",
+
+        "translator",
+
+        "song-downloader"
+
+    ]
+
+}
