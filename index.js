@@ -1,5 +1,5 @@
 const config = require('./config');
-const { SessionCode } = require('./lib/session');
+const { SessionCode } = require('./session');
 const { connect } = require('./lib/index');
 const { startServer } = require('./lib/server');
 
